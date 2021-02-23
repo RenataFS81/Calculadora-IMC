@@ -1,0 +1,90 @@
+body{
+	background-image: linear-gradient(to right,#3D5F7C, white, blue);
+	margin: 0;
+	
+	
+}
+header{
+	
+	height: 30px;
+	grid-row-gap: 1px;
+	background-color:#034873;
+	
+}
+
+hr{
+	margin-top: 30px;
+
+}
+ 
+div p{
+
+	font-size: 100px;
+	text-shadow: 0 5px #808080;
+	margin-top: -300px;
+	margin-bottom: 300px;
+	display: flex;
+	justify-content: center;
+}
+#altura,#peso,.result{
+	margin-right: 30px;
+	background-color: #ecec;
+
+}
+
+section div p {
+		width: 100%; 
+		background-color: #658097;
+		font-weight: bold;
+
+}
+
+
+.center {
+  text-align: center;
+
+
+}
+.center p{
+	 padding: 5px;
+}
+
+.calc{
+	font-size:25px;
+	padding: 0;
+}
+input{
+	display: flex;
+	width: 20%;
+	height: 30px;
+	border-radius: 5px;
+}
+button{
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
+#resultado{
+	margin-bottom: 100px;
+	background-color: #5F7CFA.
+}
+footer{
+	height: 50px;
+	grid-row-gap: 1px;
+	background-color:#034873;
+}
+footer p{
+	text-align: center;
+	font-size: 15px;
+	color:#7d7d7d;
+	font-weight: bold;
+    padding-top:15px;
+	margin-left: 0 auto;
+}
+@media (max-width: 1000px){
+	div p{
+		font-size: 50px;
+	}
+	input{
+		width: 50%;
+	}
+}
